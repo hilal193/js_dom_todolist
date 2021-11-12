@@ -1,0 +1,101 @@
+body {
+    padding: 1%;
+    margin: 0%;
+    background-color: orange;
+}
+
+section {
+    margin: 0% 10%;
+}
+
+h1 {
+    color: blue;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+input {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0.5%;
+    padding: 0.5% 1%;
+}
+
+.divTache {
+    background-color: grey;
+    height: max-content;
+    padding: 2%;
+    margin: 1% 0%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* icon */
+.prioriter {
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.checker {
+    margin-right: 25px;
+    color: mediumturquoise;
+    font-size: 15px;
+}
+
+.modifier {
+    margin-right: 25px;
+    color: brown;
+    font-size: 20px;
+}
+
+.effaceur {
+    margin-right: 25px;
+    color: red;
+    font-size: 15px;
+}
+
+
+.attention {
+    color: red;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.sauvegarder {
+    margin-right: 20px;
+    color: lightgreen;
+}
+
+
+.oui {
+    background-color: rgb(75, 218, 75);
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.non {
+    background-color: red;
+    color: white;
+    margin-right: "5px";
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.aggrandi{
+    font-size: 17px;
+}
